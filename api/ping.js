@@ -1,2 +1,3 @@
 export default function handler(req, res) {
-  return res.status(200).json({ message: "Function werkt!" });
+  res.status(200).json({ message: "Function werkt!" });
+}
